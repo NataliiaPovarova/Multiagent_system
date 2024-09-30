@@ -1,0 +1,19 @@
+research_task:
+  description: >
+    Using tools, please find all publicly available information about mission and values of {company}
+  expected_output: >
+    Researched company's values and mission with detailed description of each
+
+analysis_task:
+  description: >
+    Take output of the Researcher and prepare a short summary of researched company's values
+  expected_output: >
+    A table with two columns: 'Value' and 'Description'. Column 'Value' contains a short name for a value
+    and column 'Description' contains a short explanation on the value (two sentences at most)
+
+strategy_task:
+  description: >
+    Take the table with company's values. Using provided instrument, read the description of the product
+    from the file. Suggest a strategy to align the described product with company's values.
+  expected_output: >
+    A step-by-step strategy with a detailed explanation of how to align the described product with company's value.

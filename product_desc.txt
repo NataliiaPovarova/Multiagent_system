@@ -1,0 +1,2 @@
+The product is a friendly chatbot for a bookshop website. The chatbot should know all the books the bookshop has and all the restrictions for each book (such as age restrictions, trigger warnings, etc.)
+The chatbot should ask for a customer's age and warn them about scenes of violence or any other sensitive topics the chosen book contain. It should also be able to suggest a book based on customer's preferences
